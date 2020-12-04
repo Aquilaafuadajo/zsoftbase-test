@@ -1,0 +1,28 @@
+{
+  "name": "internship_test",
+  "version": "1.0.0",
+  "description": "a sign up and login api test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aquilaafuadajo/zsoftbase-test.git"
+  },
+  "author": "Emmanuel Afuadajo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aquilaafuadajo/zsoftbase-test/issues"
+  },
+  "homepage": "https://github.com/Aquilaafuadajo/zsoftbase-test#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.4",
+    "validator": "^13.5.1"
+  }
+}
