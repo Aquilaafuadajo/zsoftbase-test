@@ -27,5 +27,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.4",
     "validator": "^13.5.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
   }
 }
