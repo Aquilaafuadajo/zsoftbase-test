@@ -26,17 +26,17 @@ const sendErrorDev = (err, res) => {
 
 const sendErrorProd = (err, res) => {
   if(err.isOperational) {
-    console.log('OPERATIONALLLL')
     res.status(err.statusCode).json({
       status: err.status,
       message: err.message
     })
   } else {
     console.log('ERROR!!!!!', err)
+    const errors = Object.keys(err.errors).map(error => `${error}: ${err.errors[error].message}`)
 
     res.status(500).json({
       status: 'error',
-      message: err.message
+      message: errors
     })
   }
 }
