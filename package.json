@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Aquilaafuadajo/zsoftbase-test#readme",
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
